@@ -20,7 +20,7 @@ function App() {
           <button class='bg-pink-500 text-white px-6 py-2 text-xs'>GET STARTED</button>
           </div>
           <div className='image'>
-            <img src={banner} class='scale-75'/>
+            <img src={banner} class='scale-75' alt=""/>
           </div>
         </div>
         <div className='services'>
@@ -60,7 +60,7 @@ function App() {
             </ul>
           </div> 
           <div class='image'>
-            <img src={solution} class='w-96 scale-125 bg-pink-50 py-5 px-20 rounded-l-full'/>
+            <img src={solution} class='w-96 scale-125 bg-pink-50 py-5 px-20 rounded-l-full' alt=""/>
           </div>
         </div>
         <div className='contact' class='mt-40'>
@@ -75,7 +75,7 @@ function App() {
           </form>
         </div>
       </body>
-      <img src={logo} class='mt-20 mb-10'/>
+      <img src={logo} class='mt-20 mb-10' alt=""/>
       <footer class='text-center border-t-4 border-black pt-5'>
         <p>© all Rights Reserved by Hexan</p>
       </footer>
