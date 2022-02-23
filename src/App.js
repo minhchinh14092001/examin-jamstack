@@ -10,7 +10,7 @@ function App() {
   return (
     <div class='pb-20 px-10'>
       <header class='border-b-4 border-black'>
-      <img src={logo} alt="" class='scale-50'  class=' py-8'/>
+      <img src={logo} alt="" class='scale-50 py-8'/>
       </header>
       <body class='px-40'>
         <div class='flex'>
@@ -27,22 +27,22 @@ function App() {
           <p class='font-bold text-3xl mb-3'>Services</p>
           <p class='text-sm mb-3'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum</p>
           <div className='card' class='flex justify-evenly'>
-            <div className='card-1 w-60 drop-shadow-2xl bg-white rounded-3xl'>
+            <div className='card-1' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
               <img src={research} alt="" class='scale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Market Research</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
-            <div className='card-1 w-60 drop-shadow-2xl bg-white rounded-3xl'>
+            <div className='card-2' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
               <img src={technology} alt="" class='scale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Lastest Technology</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
-            <div className='card-1 w-60 drop-shadow-2xl bg-white rounded-3xl'>
+            <div className='card-3' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
               <img src={cloud} alt="" class='scale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Data Processing</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
-            <div className='card-1 w-60 drop-shadow-2xl bg-white rounded-3xl'>
+            <div className='card-4' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
               <img src={seo} alt="" class='scale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Customer Service</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
