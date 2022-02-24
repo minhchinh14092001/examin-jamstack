@@ -8,19 +8,19 @@ import solution from './images/marketing-img.png'
 
 function App() {
   return (
-    <div class='pb-20 px-10'>
+    <div class='lg:pb-20 lg:px-10'>
       <header class='border-b-4 border-black'>
       <img src={logo} alt="" class='scale-50 py-8'/>
       </header>
-      <body class='px-40'>
-        <div class='flex'>
+      <body class=' px-10 md:px-20 lg:px-40'>
+        <div class='flex pb-20'>
           <div className="text" class='max-w-2xl pt-44'>
           <p class='font-bold text-5xl mb-3'>Make business with us & become beautiful</p>
           <p class='text-sm mb-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <button class='bg-pink-500 text-white px-6 py-2 text-xs'>GET STARTED</button>
+          <button class='bg-pink-500 text-white px-6 py-2 text-xs content-center'>GET STARTED</button>
           </div>
           <div className='image'>
-            <img src={banner} class='scale-75' alt=""/>
+            <img src={banner} class='scale-75 hidden lg:block' alt=""/>
           </div>
         </div>
         <div className='services'>
@@ -28,29 +28,29 @@ function App() {
           <p class='text-sm mb-3'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum</p>
           <div className='card' class='flex justify-evenly'>
             <div className='card-1' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
-              <img src={research} alt="" class='scale-150 m-10 mx-auto'/>
+              <img src={research} alt="" class='md:cale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Market Research</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
             <div className='card-2' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
-              <img src={technology} alt="" class='scale-150 m-10 mx-auto'/>
+              <img src={technology} alt="" class='md:scale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Lastest Technology</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
             <div className='card-3' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
-              <img src={cloud} alt="" class='scale-150 m-10 mx-auto'/>
+              <img src={cloud} alt="" class='md:scale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Data Processing</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
             <div className='card-4' class='w-60 drop-shadow-2xl bg-white rounded-3xl'>
-              <img src={seo} alt="" class='scale-150 m-10 mx-auto'/>
+              <img src={seo} alt="" class='md:scale-150 m-10 mx-auto'/>
               <p class='text-center py-2 font-bold'>Customer Service</p>
               <p class='text-center pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
             </div>
           </div>
         </div>
         <div className='solution' class='mt-40 flex justify-between'>
-          <div className='text' class='w-2/5'>
+          <div className='text' class='lg:w-2/5'>
             <p class='font-bold text-3xl mb-3'>Best Digital Marketing Solution</p>
             <p class='text-sm mb-3'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod Lorem ipsum Lorem ipsum dolor sit amet, hendrerit mel, es vidit eu lorem animal iracundia. Ius te altera essent incorrupte.</p>
             <ul class='font-bold'>
@@ -60,7 +60,7 @@ function App() {
             </ul>
           </div> 
           <div class='image'>
-            <img src={solution} class='w-96 scale-125 bg-pink-50 py-5 px-20 rounded-l-full' alt=""/>
+            <img src={solution} class='lg:w-96 hidden lg:block bg-pink-50 lg:scale-125 py-5 px-20 rounded-l-full' alt=""/>
           </div>
         </div>
         <div className='contact' class='mt-40'>
@@ -71,11 +71,11 @@ function App() {
           <form class='flex justify-evenly pt-10' name='contact-form' method='POST' data-netlify='true'>
             <input type='hidden' name='form-name' value='contact-form'></input>
             <input type="text" placeholder='Mail' name='email' class="mt-1 w-3/5 px-3 py-2 bg-white border-pink-400 rounded-full text-sm shadow-sm placeholder-slate-400 border-4" />
-            <button type='submit' class='bg-pink-400 rounded-full py-3 px-16 text-white font-bold'>SUBMIT</button>
+            <button type='submit' class='bg-pink-400 rounded-full w-20 md:w-40 lg:w-60 text-white font-bold'>SUBMIT</button>
           </form>
         </div>
       </body>
-      <img src={logo} class='mt-20 mb-10' alt=""/>
+      <img src={logo} class='mt-20 mb-5 scale-50' alt=""/>
       <footer class='text-center border-t-4 border-black pt-5'>
         <p>© all Rights Reserved by Hexan</p>
       </footer>
